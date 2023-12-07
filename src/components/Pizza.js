@@ -6,9 +6,10 @@ import pizza5 from "../../src/assets/images/salamino.jpg";
 import pizza6 from "../../src/assets/images/spinaci.jpg";
 export default function Pizza() {
   return (
-    <>
-      <h2>Pizza Spinaci</h2>
+    <main className="pizza">
       <img src={pizza6} alt="pizza spinaci" />
-    </>
+      <h3>Pizza Spinaci</h3>
+      <p>tomato, mozarella, spinach, and ricotta cheese</p>
+    </main>
   );
 }
