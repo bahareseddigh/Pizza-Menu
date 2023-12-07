@@ -7,8 +7,8 @@ import pizza6 from "../../src/assets/images/spinaci.jpg";
 export default function Pizza() {
   return (
     <>
-      <img src={pizza6} alt="pizza spinaci" />
       <h2>Pizza Spinaci</h2>
+      <img src={pizza6} alt="pizza spinaci" />
     </>
   );
 }
