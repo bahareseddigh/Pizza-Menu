@@ -12,7 +12,7 @@ const pizzaData = [
     ingredients: "Bread with italian olive oil and rosmary",
     price: 6,
     photoName: pizza1,
-    soldOut: false,
+    soldOut: true,
   },
   {
     name: "funghi",
@@ -59,6 +59,7 @@ export default function Menu() {
     <main className="menu">
       <h2>Our Menu</h2>
 
+      <p>Welcome to our Website!</p>
       {numPizza > 0 ? (
         <ul className="pizzas">
           {pizzaData.map((pizza) => (
